@@ -1,0 +1,22 @@
+bug-uri:
+navbar: schimbare culoare cadn hover
+buton "fin out more": scris sub buton
+
+
+-nume div(css name rules)
+-boxflex css
+-inca 2 sectiuni +footer
+
+how to name our css classes
+https://www.youtube.com/watch?v=idN8winwZ78
+https://www.youtube.com/watch?v=phWxA89Dy94
+
+sandbox
+sass
+
+--->MARTI
+-inca 2 sectiuni +footer 
+-BEM
++FLEXBOX
++JQUERRY(slider)
++BOOTSRAP(navbar-header)
