@@ -20,3 +20,14 @@ sass
 +FLEXBOX
 +JQUERRY(slider)
 +BOOTSRAP(navbar-header)
+
+
+
+
+Eroare script
+
+The error "Uncaught TypeError: Cannot read properties of null (reading 'classList')" is occurring because the document.querySelector method is not able to find an element with the class navbar in the HTML document, and as a result, the variable navbar is set to null.
+
+This could happen if the class navbar does not exist in the HTML document or if the JavaScript code is executed before the HTML document has finished loading.
+
+To fix the issue, make sure that the navbar class is defined in the HTML document and that the JavaScript code is executed after the HTML document has finished loading. You can achieve this by wrapping the code in a DOMContentLoaded event listener like this:
